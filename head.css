@@ -1,0 +1,26 @@
+
+	 
+	 /* link yang dilalui oleh mouse dan element dengan class='selected' akan mempunyai efek yang sama */
+	 #divTrigger a:hover,#divTrigger a:active,.selected{ 
+	    background-color: #00A;
+	    color: #FFF;
+	 }
+	 #divContent{
+	 	
+	 	border:0px solid #000;
+	 	width: 970px;
+	 	height: 400px;
+	 	padding: 4px;
+	 }
+	 #divContent div{ 
+	 	/* semua div di dalam element dengan id='divContent' akan di sembunyikan sementara */
+	 	display:none
+	 }	
+	 .title{
+	 	font-size: 16px;
+	 	font-weight: bold;
+	 	color: #006;
+	 	text-decoration: underline;
+	 	margin-bottom: 2px;
+	 	display:block
+	 } 
